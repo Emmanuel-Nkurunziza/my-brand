@@ -13,22 +13,22 @@
 <body>
     <div class="main">
         <div class="navbar">
-            <div class="brand-logo">
-                <h1>My Brand</h1>
+            <div class="brand-logo" id="My-brand">
+                <h1> My Brand</h1>
             </div>
             <div class="menu-list">
                 <ul>
                     <li>
-                        <a href=""> About me</a>
+                        <a href="#About"> About me</a>
                     </li>
                     <li>
-                        <a href="">My Articles</a>
+                        <a href="./pages/blog.html">My Articles</a>
                     </li>
                     <li>
-                        <a href="">My work</a>
+                        <a href="#My-work">My work</a>
                     </li>
                     <li>
-                        <a href="">Contact me</a>
+                        <a href="#Contact-me">Contact me</a>
                     </li>
                 </ul>
             </div>
@@ -45,15 +45,17 @@
                 Greetings! 🤝 I am an Enthusiastic Computer Programmer
             </div>
 
-            <div class="section-option">
+            <div class="section-option" id="About">
                 <label>About me </label>
                 <button class="btn-direction">
-                <img src="assets/icons/arrow-down.svg">
+                    <a href="#About">
+                        <img src="assets/icons/arrow-down.svg">
+                    </a>    
             </button>
             </div>
         </section>
 
-        <section class="page-section">
+        <section class="page-section" >
             <div class="page-section-header">
                 <h1>About me</h1>
                 <div class="hr-line"></div>
@@ -69,16 +71,19 @@
                 My current stack of technologies includes: <br> HTML5 - CSS3 - JAVASCRIPT - PHP - NODEJS - EXPRESSJS
 
             </div>
-            <div class="section-option">
+            <div class="section-option" id="to-blog" >
+
                 <button class="btn-direction">
-                <img src="assets/icons/arrow-down.svg">
-            </button>
+                    <a href="#to-blog">
+                        <img src="assets/icons/arrow-down.svg">
+                    </a>
+                </button>
             </div>
         </section>
 
 
 
-        <section class="page-section">
+        <section class="page-section" >
             <div class="page-section-header">
                 <h1>Blog Posts</h1>
                 <div class="hr-line"></div>
@@ -95,16 +100,18 @@
                 <img src="assets/icons/allow-right.svg">
             </button>
             </div>
-            <div class="section-option">
+            <div class="section-option" id="My-work">
                 <label>my projects</label>
-                <button class="btn-direction">
-                <img src="assets/icons/arrow-down.svg">
-            </button>
+                <a href="#My-work">
+                    <button class="btn-direction">
+                     <img src="assets/icons/arrow-down.svg">
+                    </button>
+                </a>  
             </div>
         </section>
 
 
-        <section class="page-section">
+        <section class="page-section"  >
             <div class="page-section-header">
                 <h1>Projects</h1>
                 <div class="hr-line"></div>
@@ -127,11 +134,13 @@
                 </div>
             </div>
 
-            <div class="section-option">
+            <div class="section-option" id="Contact-me">
                 <label>Please feel free to contact me for more information</label>
-                <button class="btn-direction">
-                <img src="assets/icons/arrow-down.svg">
-            </button>
+                 <a href="#Contact-me">
+                     <button class="btn-direction">
+                        <img src="assets/icons/arrow-down.svg">
+                    </button>
+                 </a> 
             </div>
         </section>
 
@@ -169,9 +178,12 @@
 
             <footer class="copyright">
                 <div class="social-medial-widget">
-                    <button class="btn-direction">
-                    <img src="assets/icons/allow-up.svg">
-                </button>
+                    <a href="#My-brand">
+                       <button class="btn-direction">
+                         <img src="assets/icons/allow-up.svg">
+                      </button> 
+                    </a>
+                    
                     <div class="social-medial-links">
                         <a href="http://">
                             <span class="fa fa-facebook"></span>
