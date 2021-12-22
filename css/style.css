@@ -371,3 +371,111 @@ body {
 
    
 
+
+.article-title {
+    font-size: 20px;
+    color: #fff;
+}
+
+.blog-content {
+    color: #fff;
+    margin: 100px 15%;
+}
+
+.blog-option {
+    margin: 0px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.left-option {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.right-option {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.section-main-content {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.comment-form-widget {
+    background: #202027;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 60%;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.comment-input-widget {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.comment-input-widget input {
+    border: 2px solid #1762A7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.comment-input-widget textarea {
+    border: 2px solid #1762A7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    height: 140px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.comment-form-option {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comment-form-option .btn-send {
+    color: #fff;
+    background: #1762A7;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 60px;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-item {
+    margin-bottom: 20px;
+    background: #202027;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+.comment {
+    color: #fff;
+}
+
+.comment .commenter-name {
+    color: #1762A7;
+}
