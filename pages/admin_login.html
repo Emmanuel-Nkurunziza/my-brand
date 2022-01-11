@@ -12,38 +12,39 @@
 
 <body>
     <div class="main">
-        <div class="navbar">
+        <div class="navbar" id="My-brand">
             <div class="brand-logo">
-                <h1>My Brand</h1>
+                <h1> My Brand</h1>
             </div>
             <div class="menu-list">
                 <ul>
-                    <li>
-                        <a href="../index.html"> About me</a>
-                    </li>
-                    <li>
-                        <a href="./blog.html">My Articles</a>
-                    </li>
-                    <li>
-                        <a href="../index.html">My work</a>
-                    </li>
-                    <li>
-                        <a href="../index.html">Contact me</a>
-                    </li>
+                    <li><a href="../index.html#About"> About me</a></li>
+                    <li><a href="../index.html#My-work">My work</a></li>
+                    <li><a href="./blog.html">My Articles</a></li>
+                    <li><a href="../index.html#Contact-me">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="menu-list-mobile hidden">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                <ul class="menu">
+                    <li><a href="../index.html#About"> About me</a></li>
+                    <li><a href="../index.html#My-work">My work</a></li>
+                    <li><a href="./blog.html">My Articles</a></li>
+                    <li><a href="../index.html#Contact-me">Contact me</a></li>
                 </ul>
             </div>
         </div>
 
 
 
-
         <section class="page-section">
-            <div class="page-section-header">
-                <h1>Sign in as Admin </h1>
-                <div class="hr-line"></div>
+            <div class="my-intro">
+                <h1 class="name-logIn">Sign In as Admin</h1>
+                <div class="hr-line-logIn"></div>
             </div>
 
-            <div class="section-main-content">
+            <div class="section-main-content-logIn">
                 <div class="contact-form-widget">
                     <div class="input-widget">
                         <label>Email: </label>
@@ -53,8 +54,13 @@
                         <label>Password:  </label>
                         <input type="password" class="page-input">
                     </div>
-                    <div class="form-option">
-                        <a href="./admin_dashboard.html"><button class="btn-send">Sign In</button></a>  
+                    <div class="form-option" >
+                        <a class="btn-send" href="./admin_dashboard.html">
+                        <button class="btn-send">
+                            Sign In
+                        </button>
+                        </a>
+                          
                     </div>
 
                 </div>
@@ -98,7 +104,7 @@
         </section>
 
     </div>
-
+    
 </body>
 
 </html>

@@ -12,44 +12,54 @@
 
 <body>
     <div class="main">
-        <div class="navbar">
+        <div class="navbar" id="My-brand">
             <div class="brand-logo">
-                <h1>My Brand</h1>
+                <h1> My Brand</h1>
             </div>
             <div class="menu-list">
                 <ul>
-                    <li>
-                        <a href="../index.html"> About me</a>
-                    </li>
-                    <li>
-                        <a href="../pages/blog.html">My Articles</a>
-                    </li>
-                    <li>
-                        <a href="../index.html">My work</a>
-                    </li>
-                    <li>
-                        <a href="../index.html">Contact me</a>
-                    </li>
+                    <li><a href="../index.html#About"> About me</a></li>
+                    <li><a href="./blog.html">My Articles</a></li>
+                    <li><a href="../index.html#My-work">My work</a></li>
+                    <li><a href="../index.html#Contact-me">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="menu-list-mobile hidden">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                <ul class="menu">
+                    <li><a href="../index.html#About"> About me</a></li>
+                    <li><a href="./blog.html">My Articles</a></li>
+                    <li><a href="../index.html#My-work">My work</a></li>
+                    <li><a href="../index.html#Contact-me">Contact me</a></li>
                 </ul>
             </div>
         </div>
 
         <section class="page-content">
 
-            <div class="page-section-header">
-                <h2 class="article-title">Will programmers be replaced with robots in the near-future?</h2>
-                <div class="hr-line"></div>
+            <div class="my-intro">
+                <h1 class="name-article">Will programmers be replaced with robots in the near-future?</h1>
+                <div class="hr-line-article"></div>
             </div>
 
-            <div class="blog-content">
+            <div class="article-picture">
+                <img src="../assets/images/robots.jpg">
+                <figcaption>Will Robots Take our Job?</figcaption>
+            </div>
+
+            <div class="blog-content-article">
                 No, but probably not the reason most people would think. Robots can't do anything but insert tab a into slot b type jobs. While much of what is currently considered programming could be automated and a lot of the research I do could also be speed up by
                 something like a good search tool, still a significant part of my work has been either about doing something no one has ever really done, trying to figure out how to do a task in a more efficient and effective manner or mapping requirements
                 (often provided in an ambiguous way by people who understand their business but not information systems) to information systems development.
                 <br> <br> Robotics implies movement. It would not take movement or motion apparatus of any kind to replace a programmer. Rather, code could be created entirely in silico without even a keyboard. That being said, I doubt AI itself will
                 replace programmers at any point in the near future. Instead, I think AI will cause developers to be forced to become much more productive by leveraging AI itself. That will be our task: to keep up, get above AI and make it part of our
                 toolkit—and not necessarily in the same way as AI developer do today. One might use AI output as one uses a database or network now: a source of … info? direction? Or perhaps as the code that uses our own.
-
+                <br><br>
+                <p class="btn-like">Article written: 8 months ago</p>
             </div>
+
+    
 
             <div class="blog-option">
                 <div class="left-option">
@@ -57,7 +67,7 @@
                     <button class="btn-like">👍</button>
                 </div>
                 <div class="right-option">
-                    and we will appreciate your comment
+                    We appreciate your comment
                     <button class="btn-direction">
                        <a href="#to-comment"><img src="../assets/icons/arrow-down.svg"></a> 
                     </button>
@@ -67,14 +77,14 @@
         </section>
 
         <section class="page-section" id="to-comment">
-            <div class="article-title">
+            <div class="comment-title">
                 <h4>Leave your comment here: </h4>
                 <div class="hr-line"></div>
             </div>
 
             <div class="section-main-content">
                 <div class="comment-form-widget">
-                    <div class="comment-input-widget" style="width: 50%;">
+                    <div class="comment-input-widget" style="width: 75%;">
                         <input type="text" placeholder="Name" class="page-input">
                     </div>
                     <div class="comment-input-widget">
